@@ -1,0 +1,565 @@
+@media only screen and (max-width: 600px) {
+
+    *,
+    *::after,
+    *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    section {
+        overflow: hidden;
+    }
+
+    .section-hero {
+        background-image: url("../images/Rectangle.png");
+        margin-bottom: 80px;
+    }
+
+    .container {
+        max-width: 460px;
+        margin: auto;
+    }
+
+    .logo-area_1 {
+        width: 74px;
+    }
+
+
+    .header-area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 32px;
+    }
+
+    .logo-area {
+        width: 10px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .top-header_area {
+        padding-top: 3px;
+        display: grid;
+
+    }
+
+    .header-left {
+        padding-top: 7px;
+    }
+
+    .contantText h1 {
+        font-size: 19px;
+
+    }
+
+    .contantText2 p {
+        font-size: 10px;
+    }
+
+
+
+    .contantText2 {
+        color: #FFFFFF;
+        margin-top: 17px;
+
+    }
+
+
+    .Botton {
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+        margin-top: 52px;
+        margin-left: 54px;
+    }
+
+    .contant_btn {
+        width: 159px;
+        height: 47px;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .contant_btn2 {
+        padding: 0px 0px;
+        width: 135px;
+        height: 48px;
+
+    }
+
+    .top-header_area {
+        padding-top: 3px;
+        display: grid;
+    }
+
+
+    .header-right {
+        padding-top: 38px;
+        margin-left: -14px;
+    }
+
+    .img_header-right {
+        width: 322px;
+    }
+
+    .image-area {
+        display: flex;
+        justify-content: safe;
+        padding-top: 27px;
+    }
+
+    .img-1 {
+        width: 146px;
+        height: 116px;
+        padding-top: 0px;
+    }
+
+    .img-2 {
+        margin-right: 209px;
+    }
+
+    .img-2_right {
+        width: 158px;
+        padding-top: 17px;
+    }
+
+    .img-3_logo {
+        width: 347px;
+    }
+
+    .section-heading-wrapper p {
+        font-size: 20px;
+        height: 100px;
+        margin-left: 10px;
+    }
+
+
+    .section-heading-wrapper h1 {
+        text-align: center;
+        color: #777777;
+        font-weight: 400;
+        font-size: 19px;
+    }
+
+    .card_container img {
+        width: 100%;
+    }
+
+    .top-header_fream {
+        display: inline;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 86px;
+        padding-top: 58px;
+    }
+
+
+    .footer-btn a {
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 36px;
+        color: #0A2640;
+        text-decoration: none;
+        border-bottom: 2px solid black;
+        padding: 10px 0px;
+    }
+
+    .img_container_1270 {
+        width: 100%;
+    }
+
+    .roup_container {
+        width: 207px;
+        height: 253px;
+    }
+
+    .group_container {
+        position: absolute;
+        top: 50%;
+        right: -35px;
+
+    }
+
+    .customers-wrapper {
+        display: inline;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .customers-content-wrapper {
+        width: 460px;
+        font-size: 18px;
+        padding-top: 68px;
+        margin-left: 13px;
+    }
+
+    .customers_help_container {
+        padding-top: 56px;
+        display: inline;
+        grid-template-columns: 1fr 1fr;
+        gap: 0px;
+    }
+
+    .Group-img_210 {
+        width: 30px;
+    }
+
+    .cutomers_titale {
+        font-size: 17px;
+        padding-top: 4px;
+        margin-right: 113px;
+    }
+
+    .Group_210_img {
+        width: 30px;
+    }
+
+    .cutomers_titale p1 {
+        font-size: 17px;
+        ;
+    }
+
+    .customers_help_titale {
+        font-family: 'Manrope';
+        font-size: 15px;
+        width: 138px;
+        line-height: normal;
+        padding-top: 34px;
+    }
+
+    .cutomers_titale3 p {
+        font-size: 17px;
+        margin-right: 81px;
+    }
+
+    .connect_header {
+        padding-top: 50px;
+
+    }
+
+    .connects-wrapper {
+        display: inline;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+    }
+
+    .connect_taitle {
+        font-size: 19px;
+        width: 281px;
+
+    }
+
+    .connect_footer {
+        padding-top: 46px;
+        margin-left: 0;
+    }
+
+    .contant_btn2 {
+        padding: 0px 0px;
+        width: 135px;
+        height: 48px;
+        margin-right: 198px;
+    }
+
+
+    .connect_img {
+        width: 100%;
+    }
+
+    .connect_footer_img2 {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 22px;
+    }
+
+
+
+
+    .connect_img2 {
+        width: 223px;
+        height: 266px;
+    }
+
+    .header_img {
+        background-color: #0A2640;
+        width: 294px;
+        height: 54px;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 4px 32px rgb(0 0 0 / 8%);
+        border-radius: 4px;
+        gap: 10px;
+    }
+
+    .star_img {
+        width: 20px;
+    }
+
+    .header_txt {
+        font-size: 11px;
+        padding-top: 20px;
+        color: white;
+    }
+
+    .header_img1 {
+        background-color: white;
+        width: 484px;
+        height: 54px;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: none;
+        margin-left: -17px;
+
+
+    }
+
+    .header_txt1 {
+        font-size: 11px;
+        width: 430px;
+        padding-top: 20px;
+    }
+
+    .Testimonials_header {
+        font-size: 16px;
+        color: #FFFFFF;
+        padding-top: 96px;
+        line-height: normal;
+    }
+
+    .Testimonials_arrows {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 111px;
+        font-size: 18px;
+        margin-left: 52px;
+        width: 133px;
+        gap: 5px;
+    }
+
+    .Testimonials_arrows_left {
+        width: 63px;
+        background-color: white;
+        border-radius: 52px;
+        text-align: center;
+        padding-top: 16px;
+        height: 59px;
+        color: #000000;
+    }
+
+    .Testimonials_body_taitle {
+        padding-top: 96px;
+        display: grid;
+        gap: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .Testimonials_body_taitle_one {
+        padding: 40px;
+        gap: 40px;
+        width: 100%;
+        height: 322px;
+        background: #FFFFFF;
+        box-shadow: 0px 12px 32px rgb(0 0 0 / 12%);
+        border-radius: 12px;
+    }
+
+    .Testimonials_body_taitle_two {
+        width: 100%;
+    }
+
+    .Testimonials_body_taitle_three {
+        width: 100%;
+    }
+
+    .images_container img {
+        width: 100%;
+        height: 185px;
+        border-radius: 24px;
+    }
+
+    .customers_help_titale {
+        font-family: 'Manrope';
+        font-size: 18px;
+        width: 242px;
+        line-height: normal;
+    }
+
+    .blog_1 {
+        width: 100%;
+    }
+
+    .images_70 {
+        width: 100%;
+    }
+
+    .Rectangle_70 {
+        width: 100%;
+    }
+
+    .blog_header p {
+        text-align: center;
+        font-family: 'Open Sans';
+        font-size: 20px;
+        color: #777777;
+    }
+
+    .blog_header h1 {
+        font-size: 18px;
+        line-height: 39px;
+        text-align: center;
+        color: #000000;
+        width: 380px;
+    }
+
+    .bolg_body {
+        padding-top: 27px;
+        display: grid;
+        gap: 32px;
+
+    }
+
+    .blog_titale_header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    .blog_titale_body p {
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 32px;
+        color: #000000;
+        padding-top: 17px;
+    }
+
+    .blog_titale_footer2 {
+        display: flex;
+        justify-content: space-between;
+        width: 164px;
+        padding-top: -2px;
+        gap: -18px;
+        gap: 12px;
+    }
+
+    .section_enterprise_template_header {
+        background: #0A2640;
+        border-radius: 12px;
+        position: relative;
+        overflow: hidden;
+        height: 266px;
+
+    }
+
+    .section_enterprise_template_header_right {
+        position: absolute;
+        left: 33.83%;
+        right: -81.58%;
+        top: -204.57%;
+        bottom: 38.87%;
+        border-radius: 47%;
+        background: #1C3D5B;
+    }
+
+    .enterprise_template_title {
+        color: #FFFFFF;
+        font-size: 48px;
+        text-align: center;
+        position: sticky;
+        padding-top: 72px;
+        color: #FFFFFF;
+    }
+
+    .enterprise_template_label {
+        text-align: center;
+        display: inline;
+        grid-template-columns: 1fr 1fr;
+        gap: 7px;
+
+    }
+
+    .enterprise_template_title {
+        color: #FFFFFF;
+        font-size: 23px;
+        text-align: center;
+        padding-top: 72px;
+        color: #FFFFFF;
+    }
+
+
+    .form-controller {
+        border: 16px solid #FFFFFF;
+        border-radius: 240px;
+        height: 47px;
+    }
+
+
+    .enterprise_template_btton {
+        height: 46px;
+
+    }
+
+    .enterprise_template_btn {
+        margin-top: 10px;
+
+
+    }
+
+    .enterprise_template_btton {
+        padding: 7px 56px 23px 39px;
+        background: #65E4A3;
+        border: 4px solid #65E4A3;
+        border-radius: 35px;
+        width: 0px;
+    }
+
+
+    .enterprise_template_btton a {
+        text-decoration: none;
+        color: #000000;
+        font-family: 'Open Sans';
+        margin-left: -25px;
+        font-size: 15px;
+        text-align: center;
+        margin-left: -14px;
+    }
+
+
+    .img_title {
+        padding-top: 30px;
+        color: #777777;
+        font-size: 18px;
+
+    }
+
+
+    .img_title_footer {
+        width: 191px;
+        padding-top: 21px;
+    }
+
+    .footer_container {
+        display: inline;
+
+    }
+
+    .img_title_right {
+        display: flex;
+        gap: 0;
+        margin-left: -38px;
+        padding-left: -42px;
+        padding-top: 20px;
+    }
+
+    .img_title_right {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+}
